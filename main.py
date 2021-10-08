@@ -8,7 +8,7 @@ physical_devices = tf.config.experimental.list_physical_devices('GPU')
 assert len(physical_devices) > 0, "No GPUs found."
 
 sess = tf.compat.v1.InteractiveSession()
-# tf.compat.v1.disable_eager_execution()
+tf.compat.v1.disable_eager_execution()
 
 
 class Record:
