@@ -27,8 +27,8 @@ class Const(object):
         do_ML = False
     HL = 3 * K + int(v or 0)                     # size of hidden layer
     t = 0.03                                     # hyperparameter from PLSS
-    batch_size = 10000
-    train_Iter = 200000
+    batch_size = 1000
+    train_Iter = 2000
     test_count = 100
     Res_rate = 0.2                               # from ResNet
     decay_steps = 1000
